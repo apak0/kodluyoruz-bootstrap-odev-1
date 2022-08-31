@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(90deg, rgba(170,54,72,0.7147233893557423) 0%, rgba(9,13,233,0.3309698879551821) 49%, rgba(170,224,49,0.6951155462184874) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.navbar{
+    border-bottom: 1px solid grey;
+    
+}
+.navbar>a{
+    font-size: 2rem;
+
+}
+
+.navbar-nav {
+    font-size: 2rem;
+}
+
+h2{
+    opacity: 0.8;
+}
+.container-h1{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.vertical-hr{
+    height:50px; 
+    width:2px;
+    margin-top: 5px;
+    border:1px solid;
+    border-color: linear-gradient(180deg, rgb(196, 228, 84), rgb(207, 40, 54))
+}
+
+.container-item{
+    border: 1px solid #000;
+}
+
+.card{
+    background: transparent;
+}
