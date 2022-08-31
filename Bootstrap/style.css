@@ -1,8 +1,12 @@
-body{
-    background: linear-gradient(90deg, rgba(170,54,72,0.7147233893557423) 0%, rgba(9,13,233,0.3309698879551821) 49%, rgba(170,224,49,0.6951155462184874) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{  
+    background: linear-gradient(90deg, rgba(131,170,131,0.7906512946975666) 0%, rgba(204,148,200,0.8858893899356618) 48%, rgba(82,205,72,0.6477941518404237) 100%);
+    font-weight: bold;
 }
 
 .navbar{
@@ -21,6 +25,7 @@ body{
 h2{
     opacity: 0.8;
 }
+
 .container-h1{
     font-family: 'Raleway', sans-serif;
 
@@ -31,6 +36,8 @@ h2{
     width:2px;
     margin-top: 5px;
     border:1px solid;
+    opacity: 0.5;
+    background-color: #000;
     border-color: linear-gradient(180deg, rgb(196, 228, 84), rgb(207, 40, 54))
 }
 
@@ -40,4 +47,46 @@ h2{
 
 .card{
     background: transparent;
+}
+
+
+.card-top-div{
+    max-width: 25%;
+    
+}
+.card-top-div>img{
+    width: 13rem;
+    height: 10rem;
+    margin: 1rem auto;
+}
+.container-content {    
+    width: 80%;
+    height: 50%;
+    margin: 1rem auto;
+   
+}
+.list-group{
+    padding-bottom: 1rem;
+}
+
+.row{
+    margin-top: 2rem;
+}
+
+#navbarNavAltMarkup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7rem;
+}
+#tree-icon>img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+}con>img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0;
 }
